@@ -1,0 +1,10 @@
+{
+  "name": "vite-repro",
+  "packageManager": "yarn@3.2.2",
+  "workspaces": [
+    "app",
+    "pkg-a-commonjs",
+    "pkg-b",
+    "pkg-c"
+  ]
+}
