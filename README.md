@@ -1,6 +1,6 @@
 # vite-bug-repro
 
-A reproduction of broken SSR with CommonJS dependencies.
+A reproduction of broken SSR with CommonJS workspace dependencies.
 
 `app` depends on `pkg-a-commonjs`.
 
