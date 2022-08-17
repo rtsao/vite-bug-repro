@@ -3,8 +3,6 @@
   "packageManager": "yarn@3.2.2",
   "workspaces": [
     "app",
-    "pkg-a-commonjs",
-    "pkg-b",
-    "pkg-c"
+    "pkg-a-commonjs"
   ]
 }

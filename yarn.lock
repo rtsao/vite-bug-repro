@@ -105,7 +105,7 @@ __metadata:
   resolution: "app@workspace:app"
   dependencies:
     express: ^4.18.1
-    pkg-c: "workspace:*"
+    pkg-a-commonjs: "workspace:*"
     vite: ^3.0.5
   languageName: unknown
   linkType: soft
@@ -1290,22 +1290,6 @@ __metadata:
 "pkg-a-commonjs@workspace:*, pkg-a-commonjs@workspace:pkg-a-commonjs":
   version: 0.0.0-use.local
   resolution: "pkg-a-commonjs@workspace:pkg-a-commonjs"
-  languageName: unknown
-  linkType: soft
-
-"pkg-b@workspace:*, pkg-b@workspace:pkg-b":
-  version: 0.0.0-use.local
-  resolution: "pkg-b@workspace:pkg-b"
-  dependencies:
-    pkg-a-commonjs: "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"pkg-c@workspace:*, pkg-c@workspace:pkg-c":
-  version: 0.0.0-use.local
-  resolution: "pkg-c@workspace:pkg-c"
-  dependencies:
-    pkg-b: "workspace:*"
   languageName: unknown
   linkType: soft
 

@@ -1,6 +1,0 @@
-{
-    "name": "pkg-c",
-    "dependencies": {
-        "pkg-b": "workspace:*"
-    }
-}

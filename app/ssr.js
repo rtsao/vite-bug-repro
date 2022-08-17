@@ -1,6 +1,6 @@
-import c from "pkg-c";
+import a from "pkg-a-commonjs";
 
 export function render() {
-    c();
+    a();
     return "hello world";
 }

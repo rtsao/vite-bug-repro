@@ -1,8 +1,8 @@
 # vite-bug-repro
 
-A reproduction of broken SSR with CommonJS sub-dependencies.
+A reproduction of broken SSR with CommonJS dependencies.
 
-`app` depends on `pkg-c`, which depends on `pkg-b`, which depends on `pkg-a-commonjs`.
+`app` depends on `pkg-a-commonjs`.
 
 SSR crashes with `ReferenceError: module is not defined` from `pkg-a-commonjs`.
 
